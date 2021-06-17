@@ -1,0 +1,54 @@
+body {
+  font-family: "Montserrat", "sans-serif";
+  margin: 0, auto;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+}
+header {
+  border: 2px solid grey;
+}
+.wrap__header {
+  display: flex;
+  justify-content: flex-end;
+}
+main {
+  border: 2px solid blue;
+}
+
+.main__wrap {
+  border: 2px solid yellow;
+}
+.main__wrapKeyDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.display__pressAnyKey {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.main__wrapCard {
+  padding-inline-start: 0;
+}
+.main__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid magenta;
+}
+footer {
+  border: 2px solid red;
+}
+.wrap__footer {
+  display: flex;
+  justify-content: center;
+}

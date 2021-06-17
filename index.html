@@ -12,7 +12,13 @@
 <body>
     <header>
         <div class="wrap__header">
-            <button calss="header__menuBtn">Table</button>
+            <button type="button" id="header__menuBtn" data-action="open-modal">Table</button>
+            <div id="myMenu" class="menu">
+                <div class="menu__content">
+                    <button type="button" id="header__closeMenuBtn" data-action="close__menu">Close</button>
+                    <p class="m__content">vcbcvbcvbcv</p>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -23,19 +29,19 @@
             </div>
             <ul class="main__wrapCard">
                 <li class="main__card">
-                    <p>event.key</p>
+                    <p class="main__cardTitle">event.key</p>
                     <p class="card__eventKeyData"></p>
                 </li>
                 <li class="main__card">
-                    <p>event.location</p>
+                    <p class="main__cardTitle">event.location</p>
                     <p class="card__eventLocationData"></p>
                 </li>
                 <li class="main__card">
-                    <p>event.which</p>
+                    <p class="main__cardTitle">event.which</p>
                     <p class="card__eventWhichData"></p>
                 </li>
                 <li class="main__card">
-                    <p>event.code</p>
+                    <p class="main__cardTitle">event.code</p>
                     <p class="card__eventCodeData"></p>
                 </li>
             </ul>
@@ -47,6 +53,7 @@
         </div>
     </footer>
     <script src="/js/inputkey.js" type="module"></script>
+    <script src="/js/menu.js" type="module"></script>
 </body>
 
 </html>
